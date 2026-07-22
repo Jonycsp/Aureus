@@ -31,23 +31,23 @@ For the formal mathematical definition and notation, see **docs/PIFP_NOTES.md**.
 
 ### Requirements
 
-- Python 3.13 or newer
-- SymPy
+- Python 3.13+
+- SymPy 1.14+
 
-Install SymPy with:
+Install the required dependency:
 
 ```bash
-pip install sympy
+pip install -r requirements.txt
 ```
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/USERNAME/Aureus.git
+git clone https://github.com/Jonycsp/Aureus.git
 cd Aureus
 ```
 
-Run the application:
+Run Aureus:
 
 ```bash
 python src/Aureus.py
@@ -102,7 +102,7 @@ Licensed under the MIT License.
 
 ## Acknowledgements
 
-Created by Jony_CSP.
+Created by Jonycsp.
 
 Developed with assistance from ChatGPT.
 
